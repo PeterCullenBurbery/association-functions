@@ -1,0 +1,191 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6761,        182]
+NotebookOptionsPosition[      4379,        130]
+NotebookOutlinePosition[      5957,        169]
+CellTagsIndexPosition[      5914,        166]
+WindowTitle->Association Functions
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ ASSOCIATION FUNCTIONS GUIDE", "PacletNameCell",
+           TextAlignment->Center], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]]]
+        }]],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/AssociationFunctions/guide/\
+AssociationFunctions\"\>":>
+       None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+             "PeterBurbery/AssociationFunctions/guide/AssociationFunctions"]},
+             Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
+AssociationFunctions/guide/AssociationFunctions.html"], StandardForm]], 
+              "Input", TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[(If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$64848], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/AssociationFunctions/guide/AssociationFunctions") <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0}]], "AnchorBar",
+     CacheGraphics->False]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1],
+
+Cell[CellGroupData[{
+
+Cell["Association Functions", "GuideTitle",
+ CellID->275530160],
+
+Cell["\[NonBreakingSpace]", "GuideAbstract",
+ CellID->60782723],
+
+Cell["\t", "GuideDelimiterSubsection"],
+
+Cell["\<\
+AssociationThrough \[LongDash] Generate an association from applying \
+different operations to an expression\
+\>", "GuideText",
+ CellID->43255860],
+
+Cell[TextData[{
+ Cell["KeyValueMapGeneralized", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " map over the structure of an association's keys and values"
+}], "GuideText",
+ CellID->576985744],
+
+Cell["Metadata", "MetadataSection",
+ CellID->111555474]
+}, Open  ]],
+
+Cell[" ", "FooterCell"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Association Functions",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2022, 7, 8, 17, 38, 46.7080511}", 
+    "history" -> {"", "", "", ""}, "context" -> 
+    "PeterBurbery`AssociationFunctions`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Association Functions Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/AssociationFunctions", "status" -> "None",
+     "summary" -> "", "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$64818, "title" -> 
+    "Association Functions", "titlemodifier" -> "", "windowtitle" -> 
+    "Association Functions", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/AssociationFunctions/guide/AssociationFunctions"}},
+CacheGraphics->False,
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[593, 21, 3104, 77, 70, "AnchorBarGrid",ExpressionUUID->"f570e702-d351-466d-a59d-a3c863362220",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[3722, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"fc96d554-eccc-4987-bd7f-08a2235c7295",
+ CellID->275530160],
+Cell[3788, 105, 63, 1, 70, "GuideAbstract",ExpressionUUID->"7e455d1f-b335-4526-a68d-d3b724445bf9",
+ CellID->60782723],
+Cell[3854, 108, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"8016e8e7-607f-4a55-b009-6a9a9631dd83"],
+Cell[3895, 110, 156, 4, 70, "GuideText",ExpressionUUID->"c8890117-0e38-412f-b3c3-e6ce3efe3144",
+ CellID->43255860],
+Cell[4054, 116, 225, 6, 70, "GuideText",ExpressionUUID->"757f08cf-c27e-452d-92f8-a12a563ec7cf",
+ CellID->576985744],
+Cell[4282, 124, 55, 1, 70, "MetadataSection",ExpressionUUID->"b2809979-a626-4297-b240-5e204731758e",
+ CellID->111555474]
+}, Open  ]],
+Cell[4352, 128, 23, 0, 70, "FooterCell",ExpressionUUID->"709c93b9-7b54-4d1c-80e7-0d352dc9be7e"]
+}
+]
+*)
+
+(* End of internal cache information *)
