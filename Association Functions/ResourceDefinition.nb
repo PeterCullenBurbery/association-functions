@@ -14635,7 +14635,41 @@ RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.866371036086157*^9},
  CellLabel->"During evaluation of In[136]:=",
- CellID->114747515,ExpressionUUID->"4c8fcf75-5a9b-40e6-8125-1429ee3ab7f1"]
+ CellID->114747515,ExpressionUUID->"4c8fcf75-5a9b-40e6-8125-1429ee3ab7f1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$785835\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 69, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663710366141577`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->68728037,ExpressionUUID->"6921745f-8b6f-4b19-832f-555d7fc6f1a4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$785835\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 70, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663710371271563`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->348188227,ExpressionUUID->"9c7e80c9-4091-4a83-b7f7-5ca9a0ceee60"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
