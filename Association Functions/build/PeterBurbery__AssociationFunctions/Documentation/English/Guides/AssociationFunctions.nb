@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6761,        182]
-NotebookOptionsPosition[      4379,        130]
-NotebookOutlinePosition[      5957,        169]
-CellTagsIndexPosition[      5914,        166]
+NotebookDataLength[      7597,        208]
+NotebookOptionsPosition[      4862,        150]
+NotebookOutlinePosition[      6441,        189]
+CellTagsIndexPosition[      6398,        186]
 WindowTitle->Association Functions
 WindowFrame->Normal*)
 
@@ -80,7 +80,7 @@ AssociationFunctions/guide/AssociationFunctions.html"], StandardForm]],
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$64848], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$712033], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "PeterBurbery/AssociationFunctions/guide/AssociationFunctions") <> 
@@ -104,7 +104,7 @@ Cell["Association Functions", "GuideTitle",
  CellID->275530160],
 
 Cell["\[NonBreakingSpace]", "GuideAbstract",
- CellID->60782723],
+ CellID->128312728],
 
 Cell["\t", "GuideDelimiterSubsection"],
 
@@ -114,13 +114,33 @@ different operations to an expression\
 \>", "GuideText",
  CellID->43255860],
 
+Cell["\<\
+KeyValueMapGeneralized \[LongDash] map over the structure of an association's \
+keys and values\
+\>", "GuideText",
+ CellID->707923371],
+
+Cell["\<\
+AssociationPartition \[LongDash] partition an association into a list of \
+associations\
+\>", "GuideText",
+ CellID->177708163],
+
 Cell[TextData[{
- Cell["KeyValueMapGeneralized", "InlineFunctionSansUnlinked"],
+ Cell["AssociationNormalize", "InlineFunctionSansUnlinked"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
- " map over the structure of an association's keys and values"
+ " normalize values in an association"
 }], "GuideText",
- CellID->576985744],
+ CellID->405597936],
+
+Cell[TextData[{
+ Cell["ConstantAssociation", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " create a constant association similar to ConstantArray"
+}], "GuideText",
+ CellID->627750890],
 
 Cell["Metadata", "MetadataSection",
  CellID->111555474]
@@ -141,14 +161,14 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 7, 8, 17, 38, 46.7080511}", 
+   "built" -> "{2022, 7, 9, 11, 42, 16.3736971}", 
     "history" -> {"", "", "", ""}, "context" -> 
     "PeterBurbery`AssociationFunctions`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
      "label" -> "Peter Burbery/ Association Functions Guide", "language" -> 
     "en", "paclet" -> "PeterBurbery/AssociationFunctions", "status" -> "None",
      "summary" -> "", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$64818, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$712005, "title" -> 
     "Association Functions", "titlemodifier" -> "", "windowtitle" -> 
     "Association Functions", "type" -> "Guide", "uri" -> 
     "PeterBurbery/AssociationFunctions/guide/AssociationFunctions"}},
@@ -168,22 +188,28 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[593, 21, 3104, 77, 70, "AnchorBarGrid",ExpressionUUID->"f570e702-d351-466d-a59d-a3c863362220",
+Cell[593, 21, 3105, 77, 70, "AnchorBarGrid",ExpressionUUID->"3f1a51b9-d5e8-438e-a6b3-2527b2d21852",
  CellID->1],
 Cell[CellGroupData[{
-Cell[3722, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"fc96d554-eccc-4987-bd7f-08a2235c7295",
+Cell[3723, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"6e11c3ec-9a8a-40c9-bedb-caae5dbb2f6a",
  CellID->275530160],
-Cell[3788, 105, 63, 1, 70, "GuideAbstract",ExpressionUUID->"7e455d1f-b335-4526-a68d-d3b724445bf9",
- CellID->60782723],
-Cell[3854, 108, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"8016e8e7-607f-4a55-b009-6a9a9631dd83"],
-Cell[3895, 110, 156, 4, 70, "GuideText",ExpressionUUID->"c8890117-0e38-412f-b3c3-e6ce3efe3144",
+Cell[3789, 105, 64, 1, 70, "GuideAbstract",ExpressionUUID->"3e65235e-06ff-4d1c-a287-50f6f87f3c90",
+ CellID->128312728],
+Cell[3856, 108, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"6edd84d4-79f5-45bb-a2b1-501a2da64376"],
+Cell[3897, 110, 156, 4, 70, "GuideText",ExpressionUUID->"54e2609c-c9bd-4c1f-a296-ea8753cbbbca",
  CellID->43255860],
-Cell[4054, 116, 225, 6, 70, "GuideText",ExpressionUUID->"757f08cf-c27e-452d-92f8-a12a563ec7cf",
- CellID->576985744],
-Cell[4282, 124, 55, 1, 70, "MetadataSection",ExpressionUUID->"b2809979-a626-4297-b240-5e204731758e",
+Cell[4056, 116, 144, 4, 70, "GuideText",ExpressionUUID->"cb0aa2f8-f671-46ce-a917-b6aedfd2fb0d",
+ CellID->707923371],
+Cell[4203, 122, 136, 4, 70, "GuideText",ExpressionUUID->"dff73bd5-e46d-4632-aff7-e4c72f544379",
+ CellID->177708163],
+Cell[4342, 128, 199, 6, 70, "GuideText",ExpressionUUID->"db84d17f-bb74-432b-8250-c14973a7e196",
+ CellID->405597936],
+Cell[4544, 136, 218, 6, 70, "GuideText",ExpressionUUID->"96c9d018-cf78-426d-b0b3-694b24b045ee",
+ CellID->627750890],
+Cell[4765, 144, 55, 1, 70, "MetadataSection",ExpressionUUID->"203fbdbb-fa24-4879-bf02-3ab3af1a5c80",
  CellID->111555474]
 }, Open  ]],
-Cell[4352, 128, 23, 0, 70, "FooterCell",ExpressionUUID->"709c93b9-7b54-4d1c-80e7-0d352dc9be7e"]
+Cell[4835, 148, 23, 0, 70, "FooterCell",ExpressionUUID->"1cc84b48-af82-4291-9eab-d5ed0961a8de"]
 }
 ]
 *)

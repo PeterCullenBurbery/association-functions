@@ -6,6 +6,10 @@ BeginPackage["PeterBurbery`AssociationFunctions`"];
 
 PeterBurbery`AssociationFunctions`KeyValueMapGeneralized;
 PeterBurbery`AssociationFunctions`AssociationThrough;
+PeterBurbery`AssociationFunctions`AssociationPartition;
+PeterBurbery`AssociationFunctions`AssociationNormalize;
+PeterBurbery`AssociationFunctions`ConstantAssociation;
+PeterBurbery`AssociationFunctions`PropertiesSummary;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -25,6 +29,14 @@ AssociationThrough[functionRules : {(_Rule | _RuleDelayed) ..}, x_] :=
    ];
 AssociationThrough[{}, x_] := <||>;
 AssociationThrough[f_][x_] := AssociationThrough[f, x];
+AssociationPartition[assoc_Association,args__]:=Module[{res=Association@@@Partition[Normal@assoc,args]},
+res/;ListQ[res]
+]
+AssociationNormalize[a_Association,f_:Norm]:=AssociationThread[Keys[a],Normalize[Values[a],f]]
+
+
+ConstantAssociation[keys_,constantValue_]:=AssociationThread[keys->ConstantArray[constantValue,Length[keys]]]
+PropertiesSummary[data_]:=Block[{properties},properties=data["Properties"];AssociationMap[data[#]&,properties]]
 End[]; (* End `Private` *)
 
 EndPackage[];
