@@ -14715,7 +14715,1437 @@ shapes.\"", 2, 136, 73, 19441454899584151767, "Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.866371111793285*^9},
  CellLabel->"During evaluation of In[136]:=",
- CellID->717286999,ExpressionUUID->"a1e5aed6-9ff0-43d0-a22c-0d39c8e5bfda"]
+ CellID->717286999,ExpressionUUID->"a1e5aed6-9ff0-43d0-a22c-0d39c8e5bfda"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
+RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 136, 74, 
+   19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663712062077374`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->283288637,ExpressionUUID->"52a43ed0-32b0-4c9a-a9e7-4caf435535e6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$834212\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 75, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371206686735*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->282639902,ExpressionUUID->"fb6cdc9b-23e4-4103-bf09-aa822d8c0a5a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$834212\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 76, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663712071547356`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->112586888,ExpressionUUID->"d46a7b9e-586b-4d19-a073-3ddc9e64a4fc"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
+RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 136, 77, 
+   19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663712476106834`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->102851724,ExpressionUUID->"05e269f8-2b57-4b7a-b803-20d89a982476"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$845978\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 78, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371248237707*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->152857432,ExpressionUUID->"ee8a634b-f63d-4d13-988b-1f101f0b36a2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$845978\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 79, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371248730678*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->53733183,ExpressionUUID->"0618a281-5f10-46f3-95c0-663c07d482db"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
+RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 136, 80, 
+   19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371250575074*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->181652531,ExpressionUUID->"970988fe-4ecc-43c1-97f9-7ba69d5ac85b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$846311\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 81, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663712510841074`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->503678103,ExpressionUUID->"ac9c35c3-7009-4f7d-9bf9-0801203f1240"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$846311\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 82, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663712515471015`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->25615307,ExpressionUUID->"201fdec2-e35a-498e-9a76-78d49c1ab2ce"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
+RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 136, 83, 
+   19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663713163676367`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->95808420,ExpressionUUID->"f7cd4148-47f9-4690-9252-2c2d4442ee7f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$863800\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 84, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8663713168556027`*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->11100028,ExpressionUUID->"3910fdc6-265b-4a78-b59f-44a1e1293945"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$863800\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 85, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371317317609*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->85243051,ExpressionUUID->"799021df-16db-4509-9f73-584917b95781"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+         RowBox[{
+           TemplateBox[{"\"adjusted net national income\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AdjustedNetNationalIncome\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AdjustedNetNationalIncome\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1.81958445368411`*^13", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             RowBox[{"\"per \"", "\[InvisibleSpace]", "\"year\""}], 
+             "US dollars per year", 
+             FractionBox["\"USDollars\"", "\"Years\""]}, "QuantityPrefixUnit",
+             SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           
+           TemplateBox[{
+            "\"seasonal bank borrowings from Fed, plus adjustments\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AdjustmentSeasonalBorrowings\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AdjustmentSeasonalBorrowings\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{
+             InterpretationBox["2.7`*^7", 2.7*^7, Selectable -> False], 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"regions\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AdministrativeDivisions\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AdministrativeDivisions\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"{", 
+             RowBox[{
+               TemplateBox[{"\"Alabama, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Alabama\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Alabama\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Alaska, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Alaska\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Alaska\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Arizona, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Arizona\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Arizona\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Arkansas, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Arkansas\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Arkansas\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"California, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"California\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"California\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Colorado, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Colorado\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Colorado\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Connecticut, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Connecticut\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Connecticut\\\
+\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Delaware, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Delaware\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Delaware\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"District of Columbia, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    
+                    RowBox[{
+                    "\"DistrictOfColumbia\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"DistrictOfColumbia\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Florida, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Florida\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Florida\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Georgia, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Georgia\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Georgia\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Hawaii, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Hawaii\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Hawaii\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Idaho, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Idaho\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Idaho\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Illinois, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Illinois\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Illinois\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Indiana, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Indiana\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Indiana\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Iowa, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Iowa\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Iowa\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"Kansas, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Kansas\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Kansas\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Kentucky, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Kentucky\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kentucky\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Louisiana, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Louisiana\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Louisiana\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"Maine, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Maine\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Maine\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Maryland, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Maryland\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Maryland\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Massachusetts, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Massachusetts\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Massachusetts\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"Michigan, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Michigan\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Michigan\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Minnesota, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Minnesota\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Minnesota\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"Mississippi, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Mississippi\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Mississippi\\\
+\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Missouri, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Missouri\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Missouri\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Montana, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Montana\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Montana\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Nebraska, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Nebraska\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Nebraska\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Nevada, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Nevada\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Nevada\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"New Hampshire, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NewHampshire\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"NewHampshire\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"New Jersey, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NewJersey\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"NewJersey\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"New Mexico, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NewMexico\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"NewMexico\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"New York, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NewYork\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"NewYork\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"North Carolina, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NorthCarolina\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"NorthCarolina\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"North Dakota, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"NorthDakota\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"NorthDakota\\\
+\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Ohio, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Ohio\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Ohio\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"Oklahoma, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Oklahoma\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Oklahoma\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Oregon, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Oregon\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Oregon\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Pennsylvania, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Pennsylvania\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Pennsylvania\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Rhode Island, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"RhodeIsland\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"RhodeIsland\\\
+\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"South Carolina, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"SouthCarolina\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"SouthCarolina\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"South Dakota, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"SouthDakota\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"SouthDakota\\\
+\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Tennessee, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Tennessee\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Tennessee\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"Texas, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Texas\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Texas\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+                "Entity"], ",", 
+               TemplateBox[{"\"Utah, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Utah\"", ",", "\"UnitedStates\""}], "}"}]}], 
+                   "]"}], "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Utah\
+\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], 
+               ",", 
+               TemplateBox[{"\"Vermont, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Vermont\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Vermont\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Virginia, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Virginia\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Virginia\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Washington, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Washington\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Washington\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"West Virginia, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"WestVirginia\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"WestVirginia\\\", \\\"UnitedStates\\\"}]\"", 
+                 "\"administrative division\""}, "Entity"], ",", 
+               TemplateBox[{"\"Wisconsin, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Wisconsin\"", ",", "\"UnitedStates\""}], 
+                    "}"}]}], "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Wisconsin\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""},
+                 "Entity"], ",", 
+               TemplateBox[{"\"Wyoming, United States\"", 
+                 RowBox[{"Entity", "[", 
+                   RowBox[{"\"AdministrativeDivision\"", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"Wyoming\"", ",", "\"UnitedStates\""}], "}"}]}],
+                    "]"}], 
+                 "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Wyoming\\\", \
+\\\"UnitedStates\\\"}]\"", "\"administrative division\""}, "Entity"]}], 
+             "}"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"adult population\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AdultPopulation\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AdultPopulation\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{
+            "2.14155872`*^8", "\"people\"", "people", "\"People\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"obese adults\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AdultsObese\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AdultsObese\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"31.1`", "\"%\"", "percent", "\"Percent\""}, 
+            "QuantityPostfix", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"number of aggravated assaults\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggravatedAssault\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"AggravatedAssault\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"821182", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"crimes\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"yr\""}], "crimes per year", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"crimes\"", "]"}], 
+              "\"Years\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"rate of aggravated assault\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggravatedAssaultRate\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggravatedAssaultRate\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"0.002502`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"crimes\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/(\"", 
+               "\[InvisibleSpace]", "\"person\"", "\[ThinSpace]", "\"yr\"", 
+               "\[InvisibleSpace]", "\")\""}], "crimes per person year", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"crimes\"", "]"}], 
+              RowBox[{"\"People\"", " ", "\"Years\""}]]}, "Quantity", 
+            SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"aggregate home value\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHomeValue\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHomeValue\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"23694653539900", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           
+           TemplateBox[{
+            "\"aggregate home value, householder 15 to 24 years\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHomeValue15To24\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHomeValue15To24\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"115468621800", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           
+           TemplateBox[{
+            "\"aggregate home value, householder 25 to 34 years\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHomeValue25To34\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHomeValue25To34\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1739775936100", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           
+           TemplateBox[{
+            "\"aggregate home value, householder 35 to 64 years\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHomeValue35To64\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHomeValue35To64\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"14471046106900", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           
+           TemplateBox[{
+            "\"aggregate home value, householder 65 years and over\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHomeValue65\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHomeValue65\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"7368362875000", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"aggregate household income\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateHouseholdIncome\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateHouseholdIncome\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1.06997929357`6.*^13", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             RowBox[{"\"per \"", "\[InvisibleSpace]", "\"year\""}], 
+             "US dollars per year", 
+             FractionBox["\"USDollars\"", "\"Years\""]}, "QuantityPrefixUnit",
+             SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"aggregate weekly hours index\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AggregateWeeklyHoursIndex\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AggregateWeeklyHoursIndex\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           "119.8`"}], ",", 
+         RowBox[{
+           TemplateBox[{"\"agricultural irrigated land fraction\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AgriculturalIrrigatedLandFraction\""}],
+                "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"AgriculturalIrrigatedLandFraction\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{
+            "5.78551729401439`", "\"%\"", "percent", "\"Percent\""}, 
+            "QuantityPostfix", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"agricultural land fraction\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgriculturalLandFraction\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgriculturalLandFraction\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{
+            "44.363367353855`", "\"%\"", "percent", "\"Percent\""}, 
+            "QuantityPostfix", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"agricultural production index\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AgriculturalProductionIndex\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgriculturalProductionIndex\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           "104.3`"}], ",", 
+         RowBox[{
+           TemplateBox[{"\"agricultural production per capita index\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"AgriculturalProductionPerCapitaIndex\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"AgriculturalProductionPerCapitaIndex\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", "98.9`"}], ",", 
+         RowBox[{
+           TemplateBox[{"\"agricultural products\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgriculturalProducts\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgriculturalProducts\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"{", 
+             
+             RowBox[{"\"Beef\"", ",", "\"Corn\"", ",", "\"Cotton\"", ",", 
+               "\"Dairy\"", ",", "\"Fish\"", ",", "\"ForestProducts\"", ",", 
+               "\"Fruit\"", ",", "\"Grains\"", ",", "\"Pork\"", ",", 
+               "\"Poultry\"", ",", "\"Vegetables\"", ",", "\"Wheat\""}], 
+             "}"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"consumption\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgricultureConsumption\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureConsumption\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"consumption per capita\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AgricultureConsumptionPerCapita\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureConsumptionPerCapita\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"harvest area\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgricultureHarvestArea\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureHarvestArea\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"harvest area per capita\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AgricultureHarvestAreaPerCapita\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureHarvestAreaPerCapita\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"production\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgricultureProduction\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureProduction\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"production per capita\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"AgricultureProductionPerCapita\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureProductionPerCapita\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"average yield\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgricultureYield\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AgricultureYield\\\"]\""},
+             "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"yield per capita\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AgricultureYieldPerCapita\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"AgricultureYieldPerCapita\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           RowBox[{"Missing", "[", "\"NotAvailable\"", "]"}]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"arrivals by air\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AirArrivals\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AirArrivals\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"3.0325`*^7", 
+             
+             RowBox[{"\"people\"", "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"yr\""}], "people per year", 
+             FractionBox["\"People\"", "\"Years\""]}, "Quantity", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"aircraft carriers\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AircraftCarriers\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AircraftCarriers\\\"]\""},
+             "EntityProperty"], "\[Rule]", "11"}], ",", 
+         RowBox[{
+           TemplateBox[{"\"air force\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"AirForce\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"AirForce\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"334000", "\"people\"", "people", "\"People\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         TemplateBox[{"691"}, "OutputSizeLimit`Skeleton"], ",", 
+         RowBox[{
+           TemplateBox[{"\"vault cash\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VaultCash\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"VaultCash\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{
+             InterpretationBox[
+              TagBox[
+               InterpretationBox[
+                StyleBox["\"0.00\"", ShowStringCharacters -> False], 0., 
+                AutoDelete -> True], 
+               NumberForm[#, {Infinity, 2}, DigitBlock -> 3, NumberSeparator -> 
+                "\[ThinSpace]"]& ], 0., Selectable -> False], 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             "US dollars", "\"USDollars\""}, "QuantityPrefix", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"vehicle sales\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehicleSales\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"VehicleSales\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1.2995`*^7", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"yr\""}], "vehicles per year", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Years\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"buses in use\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehiclesInUseBuses\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseBuses\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"834436.`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"buses\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False]}], "buses", 
+             RowBox[{"IndependentUnit", "[", "\"buses\"", "]"}]}, "Quantity", 
+            SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"buses in use per road length\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseBusesPerKilometersOfRoads\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseBusesPerKilometersOfRoads\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.1285908456644837`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"km\""}], "vehicles per kilometer", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Kilometers\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"buses in use per population\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseBusesPerThousandPeople\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseBusesPerThousandPeople\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.002703292391624131`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"person\""}], "vehicles per person", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"People\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"motorcycles in use\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehiclesInUseMotorcycles\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseMotorcycles\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"7.138476`*^6", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"motorcycles\"", ShowStringCharacters -> False, 
+                 StripOnInput -> False], FrameMargins -> 1, FrameStyle -> 
+                GrayLevel[0.85], BaselinePosition -> Baseline, RoundingRadius -> 
+                3, StripOnInput -> False]}], "motorcycles", 
+             RowBox[{"IndependentUnit", "[", "\"motorcycles\"", "]"}]}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"motorcycles in use per road length\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseMotorcyclesPerKilometersOfRoads\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseMotorcyclesPerKilometersOfRoads\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"1.1000755787089973`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"km\""}], "vehicles per kilometer", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Kilometers\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"motorcycles in use per population\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseMotorcyclesPerThousandPeople\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseMotorcyclesPerThousandPeople\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.023126264756783574`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"person\""}], "vehicles per person", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"People\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"passenger cars in use\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehiclesInUsePassengerCars\""}],
+                "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUsePassengerCars\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1.3593293`*^8", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"cars\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False]}], "cars", 
+             RowBox[{"IndependentUnit", "[", "\"cars\"", "]"}]}, "Quantity", 
+            SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"passenger cars in use per road length\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUsePassengerCarsPerKilometersOfRoads\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUsePassengerCarsPerKilometersOfRoads\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"20.947958168572626`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"km\""}], "vehicles per kilometer", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Kilometers\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"passenger cars in use per population\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUsePassengerCarsPerThousandPeople\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUsePassengerCarsPerThousandPeople\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.4403770396293731`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"person\""}], "vehicles per person", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"People\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"total vehicles in use\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehiclesInUseTotal\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTotal\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"2.54403082`*^8", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False]}], "vehicles", 
+             RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}]}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"total vehicles in use per road length\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseTotalPerKilometersOfRoads\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTotalPerKilometersOfRoads\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"39.2048131360955`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"km\""}], "vehicles per kilometer", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Kilometers\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"total vehicles in use per population\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseTotalPerThousandPeople\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTotalPerThousandPeople\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.8241805434764677`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"person\""}], "vehicles per person", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"People\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"trucks and vans in use\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VehiclesInUseTrucksAndVans\""}],
+                "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTrucksAndVans\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1.1049724`*^8", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False]}], "vehicles", 
+             RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}]}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"trucks and vans in use per road length\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseTrucksAndVansPerKilometersOfRoads\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTrucksAndVansPerKilometersOfRoads\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"17.0281885431494`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"km\""}], "vehicles per kilometer", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"Kilometers\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"trucks and vans in use per population\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", 
+                 "\"VehiclesInUseTrucksAndVansPerThousandPeople\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"VehiclesInUseTrucksAndVansPerThousandPeople\\\"]\""}, "EntityProperty"], 
+           "\[Rule]", 
+           TemplateBox[{"0.357973946698687`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"vehicles\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"person\""}], "vehicles per person", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"vehicles\"", "]"}], 
+              "\"People\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"total rate of violent crime\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"ViolentCrimeRate\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"ViolentCrimeRate\\\"]\""},
+             "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"0.003667`", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"crimes\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/(\"", 
+               "\[InvisibleSpace]", "\"person\"", "\[ThinSpace]", "\"yr\"", 
+               "\[InvisibleSpace]", "\")\""}], "crimes per person year", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"crimes\"", "]"}], 
+              RowBox[{"\"People\"", " ", "\"Years\""}]]}, "Quantity", 
+            SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"total number of violent crimes\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"ViolentCrimeTotal\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"ViolentCrimeTotal\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"1203808", 
+             RowBox[{
+               FrameBox[
+                StyleBox[
+                "\"crimes\"", ShowStringCharacters -> False, StripOnInput -> 
+                 False], FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], 
+                BaselinePosition -> Baseline, RoundingRadius -> 3, 
+                StripOnInput -> False], "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"yr\""}], "crimes per year", 
+             FractionBox[
+              RowBox[{"IndependentUnit", "[", "\"crimes\"", "]"}], 
+              "\"Years\""]}, "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"vulnerable employment\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"VulnerableEmployment\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"VulnerableEmployment\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"6270217", "\"people\"", "people", "\"People\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"vulnerable employment fraction\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{
+                "\"Country\"", ",", "\"VulnerableEmploymentFraction\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"VulnerableEmploymentFraction\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{
+            "3.88999991491437`", "\"%\"", "percent", "\"Percent\""}, 
+            "QuantityPostfix", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"wage and salaried workers\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WageAndSalariedWorkers\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"WageAndSalariedWorkers\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"151371741", "\"people\"", "people", "\"People\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"wage and salaried workers fraction\"", 
+             RowBox[{"EntityProperty", "[", 
+               
+               RowBox[{
+                "\"Country\"", ",", "\"WageAndSalariedWorkersFraction\""}], 
+               "]"}], "\"EntityProperty[\\\"Country\\\", \
+\\\"WageAndSalariedWorkersFraction\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{
+            "93.9100036621094`", "\"%\"", "percent", "\"Percent\""}, 
+            "QuantityPostfix", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"wage cost index\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WagesCostIndex\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"WagesCostIndex\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", "151.7`"}], ",", 
+         RowBox[{
+           TemplateBox[{"\"water area\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WaterArea\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"WaterArea\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"469497.`", 
+             RowBox[{
+               SuperscriptBox["\"km\"", "2"]}], "kilometers squared", 
+             SuperscriptBox["\"Kilometers\"", "2"]}, "Quantity", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"arrivals by sea\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WaterArrivals\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"WaterArrivals\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"503000.`", 
+             
+             RowBox[{"\"people\"", "\[InvisibleSpace]", "\"/\"", 
+               "\[InvisibleSpace]", "\"yr\""}], "people per year", 
+             FractionBox["\"People\"", "\"Years\""]}, "Quantity", SyntaxForm -> 
+            Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"water productivity\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WaterProductivity\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \
+\\\"WaterProductivity\\\"]\""}, "EntityProperty"], "\[Rule]", 
+           TemplateBox[{"42.7167507028788`", 
+             RowBox[{
+               FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}], 
+             RowBox[{"\"per \"", "\[InvisibleSpace]", 
+               SuperscriptBox["\"meter\"", "3"]}], 
+             "US dollars per meter cubed", 
+             FractionBox["\"USDollars\"", 
+              SuperscriptBox["\"Meters\"", "3"]]}, "QuantityPrefixUnit", 
+            SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"waterway length\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WaterwayLength\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"WaterwayLength\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"41009.`", "\"km\"", "kilometers", "\"Kilometers\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"employment\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"Workforce\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"Workforce\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", 
+           
+           TemplateBox[{"1.52692`*^8", "\"people\"", "people", "\"People\""}, 
+            "Quantity", SyntaxForm -> Mod]}], ",", 
+         RowBox[{
+           TemplateBox[{"\"wholesale price index\"", 
+             RowBox[{"EntityProperty", "[", 
+               RowBox[{"\"Country\"", ",", "\"WPI\""}], "]"}], 
+             "\"EntityProperty[\\\"Country\\\", \\\"WPI\\\"]\""}, 
+            "EntityProperty"], "\[Rule]", "93.5988812702995`"}]}], 
+       "\[RightAssociation]"}], Short[#, 5]& ], "line" -> 136, "sessionID" -> 
+   19441454899584151767, "byteCount" -> 1376776, "size" -> 5, "stored" -> 
+   False, "expr" -> Missing["NotStored"], "wrap" -> OutputSizeLimit`Defer, 
+   "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{3.86637162640506*^9},
+ CellLabel->"Out[136]=",
+ CellID->352982924,ExpressionUUID->"cfccd96c-3a46-4d18-b408-f084444828b7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
