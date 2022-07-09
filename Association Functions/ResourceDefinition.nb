@@ -14669,7 +14669,53 @@ shapes.\"", 2, 136, 70, 19441454899584151767, "Local"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.8663710371271563`*^9},
  CellLabel->"During evaluation of In[136]:=",
- CellID->348188227,ExpressionUUID->"9c7e80c9-4091-4a83-b7f7-5ca9a0ceee60"]
+ CellID->348188227,ExpressionUUID->"9c7e80c9-4091-4a83-b7f7-5ca9a0ceee60"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
+RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 136, 71, 
+   19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371110825308*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->391798059,ExpressionUUID->"34056939-1f4f-42c4-9454-8b31f34c3b2f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$807015\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 72, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371111306283*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->879654485,ExpressionUUID->"8aa00a47-3209-4481-bdc1-2dea63ed1a41"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Pick", "incomp", 
+   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
+\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
+RowBox[{\\\"EntityFramework`Caching`Private`cacheData$807015\\\", \\\",\\\", \
+RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
+\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
+\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
+shapes.\"", 2, 136, 73, 19441454899584151767, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.866371111793285*^9},
+ CellLabel->"During evaluation of In[136]:=",
+ CellID->717286999,ExpressionUUID->"a1e5aed6-9ff0-43d0-a22c-0d39c8e5bfda"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],

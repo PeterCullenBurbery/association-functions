@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    132118,       2672]
-NotebookOptionsPosition[    129958,       2627]
-NotebookOutlinePosition[    130401,       2644]
-CellTagsIndexPosition[    130358,       2641]
+NotebookDataLength[    129424,       2620]
+NotebookOptionsPosition[    127558,       2578]
+NotebookOutlinePosition[    128001,       2595]
+CellTagsIndexPosition[    127958,       2592]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1337,55 +1337,6 @@ Cell[BoxData[
   "In[132]:=",ExpressionUUID->"0f04a149-92b5-4996-80d9-f7ce5992560f"],
 
 Cell[BoxData[
- TemplateBox[{
-  "Lookup", "invrl", 
-   "\"The argument \\!\\(\\*RowBox[{\\\"EntityValue\\\", \\\"[\\\", \
-RowBox[{\\\"False\\\", \\\",\\\", \\\"False\\\", \\\",\\\", \\\"False\\\"}], \
-\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 132, 62, 
-   19441454899584151767, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.866370596027897*^9, 3.8663706388382854`*^9},
- CellLabel->
-  "During evaluation of \
-In[132]:=",ExpressionUUID->"e1f63e1d-a2e4-44ce-b557-df46f702f9e6"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Pick", "incomp", 
-   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
-\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
-\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
-RowBox[{\\\"EntityFramework`Caching`Private`cacheData$738864\\\", \\\",\\\", \
-RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
-\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
-\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
-shapes.\"", 2, 132, 63, 19441454899584151767, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.866370596027897*^9, 3.8663706389672904`*^9},
- CellLabel->
-  "During evaluation of \
-In[132]:=",ExpressionUUID->"e9a0b7d4-6934-43b2-ac11-ce2d9f28bfc1"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Pick", "incomp", 
-   "\"Expressions \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"EntityProperty\\\", \
-\\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \\\"}\\\"}]\\) and \\!\\(\
-\\*RowBox[{\\\"{\\\", RowBox[{\\\"!\\\", RowBox[{\\\"Lookup\\\", \\\"[\\\", \
-RowBox[{\\\"EntityFramework`Caching`Private`cacheData$738864\\\", \\\",\\\", \
-RowBox[{\\\"EntityProperty\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"EntityType\\\\\
-\\\"\\\", \\\",\\\", \\\"\\\\\\\"LabelPlural\\\\\\\"\\\"}], \\\"]\\\"}], \
-\\\",\\\", \\\"False\\\"}], \\\"]\\\"}]}], \\\"}\\\"}]\\) have incompatible \
-shapes.\"", 2, 132, 64, 19441454899584151767, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.866370596027897*^9, 3.86637063913729*^9},
- CellLabel->
-  "During evaluation of \
-In[132]:=",ExpressionUUID->"fdc83023-35cb-4aef-b335-b6a34215853a"],
-
-Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
   RowBox[{
    RowBox[{
@@ -2622,10 +2573,10 @@ Top_of_the_Rock.jpg", "URL" ->
  CellChangeTimes->{3.8663705962328677`*^9, 3.8663706499128027`*^9},
  CellLabel->
   "Out[132]=",ExpressionUUID->"bbdd8944-3f3c-40c3-8703-4c93c7d94640"]
-}, Open  ]]
+}, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 585.6},
+WindowSize->{1141.8, 585.6},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
@@ -2668,11 +2619,8 @@ Cell[57231, 1293, 1722, 27, 147, "Output",ExpressionUUID->"cd8e9f33-02f0-4461-88
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[58990, 1325, 526, 11, 39, "Input",ExpressionUUID->"0f04a149-92b5-4996-80d9-f7ce5992560f"],
-Cell[59519, 1338, 526, 11, 28, "Message",ExpressionUUID->"e1f63e1d-a2e4-44ce-b557-df46f702f9e6"],
-Cell[60048, 1351, 934, 16, 28, "Message",ExpressionUUID->"e9a0b7d4-6934-43b2-ac11-ce2d9f28bfc1"],
-Cell[60985, 1369, 931, 16, 28, "Message",ExpressionUUID->"fdc83023-35cb-4aef-b335-b6a34215853a"],
-Cell[61919, 1387, 68011, 1236, 426, "Output",ExpressionUUID->"bbdd8944-3f3c-40c3-8703-4c93c7d94640"]
-}, Open  ]]
+Cell[59519, 1338, 68011, 1236, 426, "Output",ExpressionUUID->"bbdd8944-3f3c-40c3-8703-4c93c7d94640"]
+}, Closed]]
 }, Open  ]]
 }
 ]
