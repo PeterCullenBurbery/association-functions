@@ -3,17 +3,17 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 13.1' *)
+(* CreatedBy='Mathematica 13.2' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7597,        208]
-NotebookOptionsPosition[      4862,        150]
-NotebookOutlinePosition[      6441,        189]
-CellTagsIndexPosition[      6398,        186]
+NotebookDataLength[      7927,        218]
+NotebookOptionsPosition[      5076,        158]
+NotebookOutlinePosition[      6655,        197]
+CellTagsIndexPosition[      6612,        194]
 WindowTitle->Association Functions
 WindowFrame->Normal*)
 
@@ -80,7 +80,7 @@ AssociationFunctions/guide/AssociationFunctions.html"], StandardForm]],
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$712033], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$155020], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "PeterBurbery/AssociationFunctions/guide/AssociationFunctions") <> 
@@ -104,7 +104,7 @@ Cell["Association Functions", "GuideTitle",
  CellID->275530160],
 
 Cell["\[NonBreakingSpace]", "GuideAbstract",
- CellID->128312728],
+ CellID->49155509],
 
 Cell["\t", "GuideDelimiterSubsection"],
 
@@ -142,6 +142,14 @@ Cell[TextData[{
 }], "GuideText",
  CellID->627750890],
 
+Cell[TextData[{
+ Cell["PropertiesSummary", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " gives a summary of an object with known properties"
+}], "GuideText",
+ CellID->178275092],
+
 Cell["Metadata", "MetadataSection",
  CellID->111555474]
 }, Open  ]],
@@ -161,19 +169,19 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 7, 9, 11, 42, 16.3736971}", 
+   "built" -> "{2022, 7, 13, 15, 27, 57.8602784}", 
     "history" -> {"", "", "", ""}, "context" -> 
     "PeterBurbery`AssociationFunctions`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
      "label" -> "Peter Burbery/ Association Functions Guide", "language" -> 
     "en", "paclet" -> "PeterBurbery/AssociationFunctions", "status" -> "None",
      "summary" -> "", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$712005, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$154991, "title" -> 
     "Association Functions", "titlemodifier" -> "", "windowtitle" -> 
     "Association Functions", "type" -> "Guide", "uri" -> 
     "PeterBurbery/AssociationFunctions/guide/AssociationFunctions"}},
 CacheGraphics->False,
-FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"]
 ]
@@ -188,28 +196,30 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[593, 21, 3105, 77, 70, "AnchorBarGrid",ExpressionUUID->"3f1a51b9-d5e8-438e-a6b3-2527b2d21852",
+Cell[593, 21, 3105, 77, 70, "AnchorBarGrid",ExpressionUUID->"36603ad8-f74b-437b-aea1-54ebd9354a2d",
  CellID->1],
 Cell[CellGroupData[{
-Cell[3723, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"6e11c3ec-9a8a-40c9-bedb-caae5dbb2f6a",
+Cell[3723, 102, 63, 1, 70, "GuideTitle",ExpressionUUID->"01a8e964-dca0-49cc-8db9-a89f45ed7103",
  CellID->275530160],
-Cell[3789, 105, 64, 1, 70, "GuideAbstract",ExpressionUUID->"3e65235e-06ff-4d1c-a287-50f6f87f3c90",
- CellID->128312728],
-Cell[3856, 108, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"6edd84d4-79f5-45bb-a2b1-501a2da64376"],
-Cell[3897, 110, 156, 4, 70, "GuideText",ExpressionUUID->"54e2609c-c9bd-4c1f-a296-ea8753cbbbca",
+Cell[3789, 105, 63, 1, 70, "GuideAbstract",ExpressionUUID->"8ab6e000-dc1b-4c7e-a6ca-f29e8142d52a",
+ CellID->49155509],
+Cell[3855, 108, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"e057fb4e-39b5-4bc7-aa65-0a693e37c34e"],
+Cell[3896, 110, 156, 4, 70, "GuideText",ExpressionUUID->"8c31ad4d-9a88-4bc2-b91b-9eb94669c552",
  CellID->43255860],
-Cell[4056, 116, 144, 4, 70, "GuideText",ExpressionUUID->"cb0aa2f8-f671-46ce-a917-b6aedfd2fb0d",
+Cell[4055, 116, 144, 4, 70, "GuideText",ExpressionUUID->"908e87e9-408c-4a12-a013-917272414d15",
  CellID->707923371],
-Cell[4203, 122, 136, 4, 70, "GuideText",ExpressionUUID->"dff73bd5-e46d-4632-aff7-e4c72f544379",
+Cell[4202, 122, 136, 4, 70, "GuideText",ExpressionUUID->"7d207791-593b-4f99-8699-a637680d49e9",
  CellID->177708163],
-Cell[4342, 128, 199, 6, 70, "GuideText",ExpressionUUID->"db84d17f-bb74-432b-8250-c14973a7e196",
+Cell[4341, 128, 199, 6, 70, "GuideText",ExpressionUUID->"a93f4af0-40a4-4172-aa93-1930bcecd183",
  CellID->405597936],
-Cell[4544, 136, 218, 6, 70, "GuideText",ExpressionUUID->"96c9d018-cf78-426d-b0b3-694b24b045ee",
+Cell[4543, 136, 218, 6, 70, "GuideText",ExpressionUUID->"963f5472-5fd5-456d-a9cc-d69ec695a248",
  CellID->627750890],
-Cell[4765, 144, 55, 1, 70, "MetadataSection",ExpressionUUID->"203fbdbb-fa24-4879-bf02-3ab3af1a5c80",
+Cell[4764, 144, 212, 6, 70, "GuideText",ExpressionUUID->"10333ac5-a271-43bd-9b3b-8ab365f6e16f",
+ CellID->178275092],
+Cell[4979, 152, 55, 1, 70, "MetadataSection",ExpressionUUID->"b7a0ab61-af57-4a07-9a6e-36aebe36a5f9",
  CellID->111555474]
 }, Open  ]],
-Cell[4835, 148, 23, 0, 70, "FooterCell",ExpressionUUID->"1cc84b48-af82-4291-9eab-d5ed0961a8de"]
+Cell[5049, 156, 23, 0, 70, "FooterCell",ExpressionUUID->"ac095b51-f3ad-43b9-863a-7ceee2797c55"]
 }
 ]
 *)

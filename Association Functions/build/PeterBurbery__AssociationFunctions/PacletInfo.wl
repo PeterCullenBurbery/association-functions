@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.4.1",
+    "Version" -> "1.5.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -18,6 +18,10 @@ PacletObject[
             "PeterBurbery`AssociationFunctions`",
             "AssociationFunctions.wl"
           }
+        },
+        "Symbols" -> {
+          "PeterBurbery`AssociationFunctions`LinearOptimizationInformation",
+          "PeterBurbery`AssociationFunctions`QuadraticOptimizationInformation"
         }
       },
       {"Documentation", "Language" -> "English"}

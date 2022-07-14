@@ -4,12 +4,14 @@ BeginPackage["PeterBurbery`AssociationFunctions`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBurbery`AssociationFunctions`KeyValueMapGeneralized;
-PeterBurbery`AssociationFunctions`AssociationThrough;
-PeterBurbery`AssociationFunctions`AssociationPartition;
-PeterBurbery`AssociationFunctions`AssociationNormalize;
-PeterBurbery`AssociationFunctions`ConstantAssociation;
-PeterBurbery`AssociationFunctions`PropertiesSummary;
+KeyValueMapGeneralized;
+AssociationThrough;
+AssociationPartition;
+AssociationNormalize;
+ConstantAssociation;
+PropertiesSummary;
+LinearOptimizationInformation;
+QuadraticOptimizationInformation;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -37,6 +39,15 @@ AssociationNormalize[a_Association,f_:Norm]:=AssociationThread[Keys[a],Normalize
 
 ConstantAssociation[keys_,constantValue_]:=AssociationThread[keys->ConstantArray[constantValue,Length[keys]]]
 PropertiesSummary[data_]:=Block[{properties},properties=data["Properties"];AssociationMap[data[#]&,properties]]
+
+ClearAll[LinearOptimizationInformation]
+
+LinearOptimizationInformation[f_,cons_,vars_]:=AssociationMap[LinearOptimization[f,cons,vars ,#]&,{"PrimalMinimizer","PrimalMinimizerRules","PrimalMinimizerVector","PrimalMinimumValue","DualMaximizer","DualMaximumValue","DualityGap","Slack","ConstraintSensitivity","ObjectiveVector","LinearInequalityConstraints","LinearEqualityConstraints"}]
+
+ClearAll[QuadraticOptimizationInformation]
+
+QuadraticOptimizationInformation[f_,cons_,vars_]:=AssociationMap[QuadraticOptimization[f,cons,vars ,#]&,{"PrimalMinimizer","PrimalMinimizerRules","PrimalMinimizerVector","PrimalMinimumValue","DualMaximizer","DualMaximumValue","DualityGap","Slack","ConstraintSensitivity","ObjectiveMatrix","ObjectiveVector","FactoredObjectiveMatrix","FactoredObjectiveVector","LinearInequalityConstraints","LinearEqualityConstraints"}]
+
 End[]; (* End `Private` *)
 
 EndPackage[];

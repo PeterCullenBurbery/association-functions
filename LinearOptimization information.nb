@@ -1,0 +1,324 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10830,        316]
+NotebookOptionsPosition[      9991,        293]
+NotebookOutlinePosition[     10430,        310]
+CellTagsIndexPosition[     10387,        307]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"LinearOptimizationInformation", "[", 
+   RowBox[{"f_", ",", "cons_", ",", "vars_"}], "]"}], ":=", 
+  RowBox[{"AssociationMap", "[", 
+   RowBox[{
+    RowBox[{"LinearOptimization", "[", 
+     RowBox[{"f", ",", "cons", ",", "vars"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<PrimalMinimizer\>\"", ",", "\"\<PrimalMinimizerRules\>\"", ",", 
+      "\"\<PrimalMinimzerVectors\>\"", ",", "\"\<PrimalMinimumValue\>\"", 
+      ",", "\"\<DualMaximizer\>\"", ",", "\"\<DualMaximumValue\>\"", ",", 
+      "\"\<DualityGap\>\"", ",", "\"\<Slack\>\"", ",", 
+      "\"\<ConstraintSensitivity\>\"", ",", "\"\<ObjectiveVector\>\"", ",", 
+      "\"\<LinearInequalityConstraints\>\"", ",", 
+      "\"\<LinearEqualityConstraints\>\""}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8667288909487705`*^9, 3.866728942687723*^9}, {
+  3.8667290334175577`*^9, 3.8667290984763975`*^9}},
+ CellLabel->"In[97]:=",ExpressionUUID->"37daae84-436f-431b-9220-c33a01df80f0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinearOptimizationInformation", "[", 
+  RowBox[{
+   RowBox[{"x", "+", "y"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"x", "+", 
+       RowBox[{"2", "y"}]}], "\[GreaterEqual]", "3"}], ",", 
+     RowBox[{"x", "\[GreaterEqual]", "0"}], ",", 
+     RowBox[{"y", "\[GreaterEqual]", "0"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "y"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.866729101641401*^9, 3.8667291150028143`*^9}},
+ CellLabel->"In[98]:=",ExpressionUUID->"be461484-1cd2-4647-86fc-fd10b137848f"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"PrimalMinimizer\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"PrimalMinimizer\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimizerRules\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"PrimalMinimizerRules\"\>",
+      "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimzerVectors\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], 
+     "[", "\<\"PrimalMinimzerVectors\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimumValue\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"PrimalMinimumValue\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"DualMaximizer\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"DualMaximizer\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"DualMaximumValue\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"DualMaximumValue\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"DualityGap\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"DualityGap\"\>", "]"}]}], 
+   ",", 
+   RowBox[{"\<\"Slack\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"Slack\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"ConstraintSensitivity\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], 
+     "[", "\<\"ConstraintSensitivity\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"ObjectiveVector\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], "[", "\<\"ObjectiveVector\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"LinearInequalityConstraints\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], 
+     "[", "\<\"LinearInequalityConstraints\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"LinearEqualityConstraints\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", "\[Rule]", "0"}], ",", 
+       RowBox[{"y", "\[Rule]", 
+        FractionBox["3", "2"]}]}], "}"}], 
+     "[", "\<\"LinearEqualityConstraints\"\>", "]"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.8667291154308214`*^9},
+ CellLabel->"Out[98]=",ExpressionUUID->"300c09d9-ea87-42a2-8207-c0870efc53c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinearOptimizationInformation", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Re", "[", "z", "]"}], "+", 
+    RowBox[{"Im", "[", "z", "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"1", "+", 
+     RowBox[{"2", "z"}]}], "\[VectorGreaterEqual]", "I"}], ",", 
+   RowBox[{"z", "\[Element]", "Complexes"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.866729129997815*^9, 3.866729131068794*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"8eddea5d-ae37-40ce-9996-3a89a49ddbcb"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"PrimalMinimizer\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"PrimalMinimizer\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimizerRules\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"PrimalMinimizerRules\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimzerVectors\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"PrimalMinimzerVectors\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"PrimalMinimumValue\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"PrimalMinimumValue\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"DualMaximizer\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"DualMaximizer\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"DualMaximumValue\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"DualMaximumValue\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"DualityGap\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"DualityGap\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"Slack\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], "[", "\<\"Slack\"\>", 
+     "]"}]}], ",", 
+   RowBox[{"\<\"ConstraintSensitivity\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"ConstraintSensitivity\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"ObjectiveVector\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"ObjectiveVector\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"LinearInequalityConstraints\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"LinearInequalityConstraints\"\>", "]"}]}], ",", 
+   RowBox[{"\<\"LinearEqualityConstraints\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "+", 
+        FractionBox["\[ImaginaryI]", "2"]}]}], "}"}], 
+     "[", "\<\"LinearEqualityConstraints\"\>", "]"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.8667291313818045`*^9},
+ CellLabel->"Out[99]=",ExpressionUUID->"56c3a9dd-040b-4ce4-bd8b-996bb2107ecd"]
+}, Open  ]]
+},
+WindowSize->{583.8, 494.4},
+WindowMargins->{{Automatic, -10.200000000000045`}, {
+  16.800000000000068`, Automatic}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"83a35a52-d987-47cb-9eb9-a6fa4c364f1d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 992, 19, 143, "Input",ExpressionUUID->"37daae84-436f-431b-9220-c33a01df80f0"],
+Cell[CellGroupData[{
+Cell[1575, 43, 564, 14, 48, "Input",ExpressionUUID->"be461484-1cd2-4647-86fc-fd10b137848f"],
+Cell[2142, 59, 3474, 100, 475, "Output",ExpressionUUID->"300c09d9-ea87-42a2-8207-c0870efc53c7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5653, 164, 477, 11, 48, "Input",ExpressionUUID->"8eddea5d-ae37-40ce-9996-3a89a49ddbcb"],
+Cell[6133, 177, 3842, 113, 500, "Output",ExpressionUUID->"56c3a9dd-040b-4ce4-bd8b-996bb2107ecd"]
+}, Open  ]]
+}
+]
+*)
+

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    203473,       4637]
+NotebookDataLength[    203471,       4637]
 NotebookOptionsPosition[     75973,       2166]
-NotebookOutlinePosition[    189799,       4336]
-CellTagsIndexPosition[    188848,       4305]
+NotebookOutlinePosition[    189797,       4336]
+CellTagsIndexPosition[    188846,       4305]
 WindowTitle->AssociationThrough | Definition Notebook
 WindowFrame->Normal*)
 
@@ -2247,7 +2247,7 @@ T4aqug690/j0vL5cZfaN1UMD3E/nnRycXQ1nGo+XhqeCVash70qpn5xovROn
   "1.4.0", "StatusMessage" -> "", 
   "SubmissionReviewData" -> {"Review" -> False}},
 CreateCellID->True,
-FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -4129,7 +4129,7 @@ DcvuuIyle//vxt/PCE6d
           FrameMargins -> {{5, 5}, {0, 0}}, 
           BaseStyle -> {"Panel", FontSize -> 12}, Evaluator -> Automatic, 
           Method -> "Queued"]]]}, {None, None}}]}, Visible -> False, 
-  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  FrontEndVersion -> "13.2 for Microsoft Windows (64-bit) (July 8, 2022)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
 ExpressionUUID->"be0b11e5-49d9-451a-8b0e-192bafb4070d"
 ]
@@ -4304,33 +4304,33 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Name", 180432, 4140},
- {"TemplateCell", 180615, 4144},
- {"Title", 180951, 4151},
- {"Description", 181133, 4155},
- {"Definition", 181311, 4159},
- {"Function", 181509, 4163},
- {"TemplateCellGroup", 181716, 4167},
- {"Documentation", 184278, 4210},
- {"Usage", 184440, 4214},
- {"Details & Options", 184633, 4218},
- {"Notes", 184836, 4222},
- {"TabNext", 185041, 4226},
- {"Examples", 185772, 4242},
- {"Source & Additional Information", 185982, 4246},
- {"Contributed By", 186173, 4250},
- {"ContributorInformation", 186409, 4254},
- {"Keywords", 186631, 4258},
- {"Categories", 186823, 4262},
- {"CategoriesCell", 187018, 4266},
- {"Related Symbols", 187195, 4270},
- {"Related Resource Objects", 187407, 4274},
- {"Source/Reference Citation", 187630, 4278},
- {"Links", 187834, 4282},
- {"Tests", 188017, 4286},
- {"VerificationTests", 188234, 4290},
- {"Author Notes", 188446, 4294},
- {"Submission Notes", 188645, 4298}
+ {"Name", 180430, 4140},
+ {"TemplateCell", 180613, 4144},
+ {"Title", 180949, 4151},
+ {"Description", 181131, 4155},
+ {"Definition", 181309, 4159},
+ {"Function", 181507, 4163},
+ {"TemplateCellGroup", 181714, 4167},
+ {"Documentation", 184276, 4210},
+ {"Usage", 184438, 4214},
+ {"Details & Options", 184631, 4218},
+ {"Notes", 184834, 4222},
+ {"TabNext", 185039, 4226},
+ {"Examples", 185770, 4242},
+ {"Source & Additional Information", 185980, 4246},
+ {"Contributed By", 186171, 4250},
+ {"ContributorInformation", 186407, 4254},
+ {"Keywords", 186629, 4258},
+ {"Categories", 186821, 4262},
+ {"CategoriesCell", 187016, 4266},
+ {"Related Symbols", 187193, 4270},
+ {"Related Resource Objects", 187405, 4274},
+ {"Source/Reference Citation", 187628, 4278},
+ {"Links", 187832, 4282},
+ {"Tests", 188015, 4286},
+ {"VerificationTests", 188232, 4290},
+ {"Author Notes", 188444, 4294},
+ {"Submission Notes", 188643, 4298}
  }
 *)
 (*NotebookFileOutline
